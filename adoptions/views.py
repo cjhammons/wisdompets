@@ -19,6 +19,3 @@ def pet_detail(request, pet_id):
     return render(request, 'pet_detail.html', {
         'pet': pet,
     })
-
-
-
